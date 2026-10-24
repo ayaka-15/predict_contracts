@@ -86,3 +86,15 @@ if st.button("判定する"):
 
     except Exception as e:
         st.error(f"予測中にエラーが発生しました：{e}")
+
+# 出典・ライセンス    
+st.divider()
+
+st.caption(
+    "Dataset: Bank Marketing | "
+    "Source: UCI Machine Learning Repository | "
+    "License: CC BY 4.0 | "
+    "Citation: Moro et al. (2014), "
+    "https://doi.org/10.24432/C5K306"
+)
+
